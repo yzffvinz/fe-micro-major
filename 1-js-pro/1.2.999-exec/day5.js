@@ -30,4 +30,5 @@ var minDistance = function(word1, word2) {
   return dp[colLength - 1][rowLength - 1];
 };
 
-console.log(minDistance('cee', 'ec'))
+console.log(minDistance('cee', 'ece'))
+console.log(minDistance('zo1o1o1o1o', 'zo'))
