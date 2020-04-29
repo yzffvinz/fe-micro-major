@@ -17,3 +17,5 @@ var longestCommonSubsequence = function(text1, text2) {
   }
   return dp[text1.length][text2.length];
 };
+
+console.log(longestCommonSubsequence('eee', 'e'));
